@@ -1,0 +1,68 @@
+.Form-Container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2rem;
+}
+
+.Form__Title h3 {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: normal;
+      letter-spacing: 5px;
+      padding: 1.2rem;
+      border-bottom: 1px solid rgb(43, 40, 71);
+}
+
+.Form-Container form {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      min-height: calc(100vh/1.8);
+}
+.Form__Element {
+      display: flex;
+      flex-direction: column;
+      padding-top: 1.2rem
+}
+.Form__Element label {
+      padding: 0.5rem 1.2rem;
+      font-weight: bold;
+      /* margin-top: 1.4rem; */
+}
+
+.Form__Element input, .Form__Element textarea {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 1rem 1.4rem;
+      border: 0;
+      border-radius: 0.5rem;
+      background-color: rgb(208, 221, 233);
+}
+
+.Form__Element input[type='submit'] {
+      cursor: pointer;
+      background-color: rgb(43, 40, 71);
+      color: #FFF;
+      font-size: 1em;
+      margin: .5rem 0;
+}
+.Form__Element input[type='button'] {
+      cursor: pointer;
+      background-color: rgb(69, 27, 107);
+      color: #FFF;
+      font-size: 1em;
+      margin: .5rem 0;
+}
+
+.Form__Element input.Error, .Form__Element textarea.Error {
+      border: 1px solid rgb(196, 27, 27);
+      color: rgb(196, 27, 27);
+}
+
+input:disabled {
+      opacity: .5;
+      cursor: initial;
+}

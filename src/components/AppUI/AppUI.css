@@ -1,0 +1,27 @@
+.Navigation-Bar {
+      padding: 1.4rem 1.4rem;
+      background-color: rgb(208, 221, 233);
+}
+.Navigation-Bar ul {
+      display: flex;
+      justify-content: flex-end;
+}
+.Navigation-Bar li {
+      list-style: none;
+      color: #fff;
+}
+.Navigation-Bar li a {
+      text-decoration: none;
+      font-size: 1.3em;
+      font-weight: 500;
+      padding: 1rem 1rem;
+}
+
+.hidden {
+      display: none;
+}
+
+.active {
+      border-bottom: 4px solid rgb(43, 40, 71);
+      color:rgb(43, 40, 71);
+}

@@ -1,0 +1,5 @@
+.SSNRegistration {
+      display: grid;
+      grid-template-columns: 35vw auto;
+      column-gap: 1.4rem;
+}
